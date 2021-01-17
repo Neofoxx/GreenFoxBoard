@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Green fox PIC32MM board"
+Date "2021-01-17"
+Rev "Rev1"
+Comp "Neofoxx"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Fits in DIP28 socket, with breakaway programming header"
+Comment4 "PIC32MM \"Green fox\" dev board"
 $EndDescr
 $Comp
 L Kicad_Library:PIC32MM0256GPM036-IM2 U3
@@ -1326,56 +1326,173 @@ $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 60A04251
-P 4650 6050
-F 0 "FID1" H 4735 6096 50  0000 L CNN
-F 1 "Fiducial" H 4735 6005 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4650 6050 50  0001 C CNN
-F 3 "~" H 4650 6050 50  0001 C CNN
-	1    4650 6050
+P 4650 6000
+F 0 "FID1" H 4735 6046 50  0000 L CNN
+F 1 "Fiducial" H 4735 5955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4650 6000 50  0001 C CNN
+F 3 "~" H 4650 6000 50  0001 C CNN
+	1    4650 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 60A04C2E
-P 5200 6050
-F 0 "FID2" H 5285 6096 50  0000 L CNN
-F 1 "Fiducial" H 5285 6005 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 5200 6050 50  0001 C CNN
-F 3 "~" H 5200 6050 50  0001 C CNN
-	1    5200 6050
+P 5200 6000
+F 0 "FID2" H 5285 6046 50  0000 L CNN
+F 1 "Fiducial" H 5285 5955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 5200 6000 50  0001 C CNN
+F 3 "~" H 5200 6000 50  0001 C CNN
+	1    5200 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 60A04F94
-P 5750 6050
-F 0 "FID3" H 5835 6096 50  0000 L CNN
-F 1 "Fiducial" H 5835 6005 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 5750 6050 50  0001 C CNN
-F 3 "~" H 5750 6050 50  0001 C CNN
-	1    5750 6050
+P 5750 6000
+F 0 "FID3" H 5835 6046 50  0000 L CNN
+F 1 "Fiducial" H 5835 5955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 5750 6000 50  0001 C CNN
+F 3 "~" H 5750 6000 50  0001 C CNN
+	1    5750 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Kicad_Library:LOGO MARK1
 U 1 1 60A06778
-P 4700 6350
-F 0 "MARK1" H 4828 6396 50  0000 L CNN
-F 1 "LOGO" H 4828 6305 50  0000 L CNN
-F 2 "KiCAD library:FOX_LOGO_MASK" H 4700 6350 50  0001 C CNN
-F 3 "" H 4700 6350 50  0001 C CNN
-	1    4700 6350
+P 4700 6400
+F 0 "MARK1" H 4828 6446 50  0000 L CNN
+F 1 "LOGO" H 4828 6355 50  0000 L CNN
+F 2 "KiCAD library:FOX_LOGO_MASK" H 4700 6400 50  0001 C CNN
+F 3 "" H 4700 6400 50  0001 C CNN
+	1    4700 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small MARK2
 U 1 1 60A07C99
-P 4800 6750
-F 0 "#LOGO1" H 4800 7025 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 4800 6525 50  0001 C CNN
-F 2 "" H 4800 6750 50  0001 C CNN
-F 3 "~" H 4800 6750 50  0001 C CNN
-	1    4800 6750
+P 5750 6500
+F 0 "MARK2" H 5997 6525 50  0000 L CNN
+F 1 "Logo_Open_Hardware_Small" H 5750 6275 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_7.5x8mm_SilkScreen" H 5750 6500 50  0001 C CNN
+F 3 "~" H 5750 6500 50  0001 C CNN
+	1    5750 6500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60A231AE
+P 4650 6950
+F 0 "H1" H 4750 6996 50  0000 L CNN
+F 1 "MB_0.5mm" H 4750 6905 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 4650 6950 50  0001 C CNN
+F 3 "~" H 4650 6950 50  0001 C CNN
+	1    4650 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60A2CFB3
+P 4650 7350
+F 0 "H3" H 4750 7396 50  0000 L CNN
+F 1 "MB_0.5mm" H 4750 7305 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 4650 7350 50  0001 C CNN
+F 3 "~" H 4650 7350 50  0001 C CNN
+	1    4650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60A2D35C
+P 5300 6950
+F 0 "H5" H 5400 6996 50  0000 L CNN
+F 1 "MB_0.5mm" H 5400 6905 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 5300 6950 50  0001 C CNN
+F 3 "~" H 5300 6950 50  0001 C CNN
+	1    5300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60A2D746
+P 4650 7150
+F 0 "H2" H 4750 7196 50  0000 L CNN
+F 1 "MB_0.5mm" H 4750 7105 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 4650 7150 50  0001 C CNN
+F 3 "~" H 4650 7150 50  0001 C CNN
+	1    4650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60A2DA78
+P 4650 7550
+F 0 "H4" H 4750 7596 50  0000 L CNN
+F 1 "MB_0.5mm" H 4750 7505 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 4650 7550 50  0001 C CNN
+F 3 "~" H 4650 7550 50  0001 C CNN
+	1    4650 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60A2DDBA
+P 5300 7150
+F 0 "H6" H 5400 7196 50  0000 L CNN
+F 1 "MB_0.5mm" H 5400 7105 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 5300 7150 50  0001 C CNN
+F 3 "~" H 5300 7150 50  0001 C CNN
+	1    5300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60A31E5E
+P 5300 7350
+F 0 "H7" H 5400 7396 50  0000 L CNN
+F 1 "MB_0.5mm" H 5400 7305 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 5300 7350 50  0001 C CNN
+F 3 "~" H 5300 7350 50  0001 C CNN
+	1    5300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60A38484
+P 5950 6950
+F 0 "H9" H 6050 6996 50  0000 L CNN
+F 1 "MB_0.5mm" H 6050 6905 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 5950 6950 50  0001 C CNN
+F 3 "~" H 5950 6950 50  0001 C CNN
+	1    5950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60A5A37D
+P 5300 7550
+F 0 "H8" H 5400 7596 50  0000 L CNN
+F 1 "MB_0.5mm" H 5400 7505 50  0000 L CNN
+F 2 "KiCAD library:MouseBiteHole_0.5mm" H 5300 7550 50  0001 C CNN
+F 3 "~" H 5300 7550 50  0001 C CNN
+	1    5300 7550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4500 5800 4500 7700
+Wire Notes Line
+	4500 7700 6550 7700
+Wire Notes Line
+	6550 7700 6550 5800
+Wire Notes Line
+	6550 5800 4500 5800
+Text Notes 4600 5900 0    50   ~ 0
+Fiducials for pick&place
+Wire Notes Line
+	4500 6150 6550 6150
+Text Notes 4600 6250 0    50   ~ 0
+Fox logo (soldermask) & OSHW logo (silkscreen)
+Wire Notes Line
+	4500 6700 6550 6700
+Text Notes 4600 6800 0    50   ~ 0
+Mousebites to break off JTAG connector
 $EndSCHEMATC
