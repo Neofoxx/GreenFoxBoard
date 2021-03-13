@@ -1,4 +1,4 @@
-18309676574675981
+18300858078475981
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -54754,13 +54754,6 @@ FIDUCIAL_1mm
 1
 1
 KiCAD library
-FOX_LOGO_COPPER
-
-
-0
-0
-0
-KiCAD library
 FOX_LOGO_MASK
 
 
@@ -54844,13 +54837,6 @@ NYS216_Neutrik_6.35mm_Receptacle
 0
 6
 6
-KiCAD library
-OLED_LCD_I2C_0.96
-
-
-0
-8
-4
 KiCAD library
 PCB_ANTENNA_868_LONG
 
@@ -54949,13 +54935,6 @@ SOT-665
 0
 5
 5
-KiCAD library
-SR2612F rotary switch
-
-
-0
-16
-16
 KiCAD library
 SolderPad_2x3mm
 
