@@ -1001,7 +1001,7 @@ Wire Notes Line
 Wire Notes Line
 	11100 5950 11100 3350
 Text Notes 8450 3550 0    50   ~ 0
-Output connectors, should fit a DIP28 socket\nEverything but USED_BTN/RC3 is exposed
+Output connectors, should fit a DIP28 socket\nEverything but oscillator pins and BTN_USER/RC3 is exposed
 Wire Notes Line
 	6200 3350 6200 5700
 Wire Notes Line
